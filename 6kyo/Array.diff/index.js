@@ -8,8 +8,9 @@ function arrayDiff(a, b) {
 		}
 	}
 	return a
-	// return a.filter(elem => !b.includes(elem)) second vers
 }
+// return a.filter(elem => !b.includes(elem)) second vers
 
 console.log(arrayDiff([1, 2], [1]))
 console.log(arrayDiff([1, 2, 2, 3], [1, 2]))
+
